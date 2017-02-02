@@ -1,0 +1,10 @@
+universe		 = docker
+docker_image		 = cyverseuk/your_image:version_tag
+#executable		 = needed if the image doesn't have an entrypoint
+arguments		 = any additional arguments to the command
+transfer_input_files	 = list of comma separated input files
+transfer_output_files	 = output (list of comma separated output files, if possible move all of them in output folder for easy of maintainance)
+should_transfer_files  	 = YES
+when_to_transfer_output	 = ON_EXIT
+request_memory         	 = 100G
+
