@@ -1,0 +1,20 @@
+{
+  "name": "your app name",
+  "shortDescription": "short description of your app functionality",
+  "longDescription": "if needed longer description, otherwise the same as short description (keep the field for correct display in the DE)",
+  "helpURI": "link to documentation or github repo of the app",
+  "datePublished": "this field can be left empty, will be auto filled in",
+  "author": "your name",
+  "version": "app version in the format 0.0.0 try to keep this the same as the docker image versioning if possible",
+  "deploymentSystem": "cyverseUK-Storage2",
+  "deploymentPath": "/mnt/data/apps/folder_name",
+  "executionSystem": "cyverseUK-Batch2",
+  "executionType": "CLI",
+  "parallelism": "SERIAL",
+  "templatePath": "wrapper.sh",
+  "testPath": "test.sh",
+  "tags": [ "CyverseUK" ],
+  "ontology": [ "a list of EDAM uri in the following format (max 6): http://edamontology.org/operation_0362"],
+  "inputs": [],
+  "parameters": []
+}
