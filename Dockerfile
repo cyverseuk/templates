@@ -1,8 +1,8 @@
 #base image to use as base layer (debian or busybox are smaller but may lack some packages)
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 
 #fill in the next line with all <package>.version you will install
-LABEL ubuntu.version="14.04" 
+LABEL ubuntu.version="16.04" 
 
 #uncomment the next line and add your name and institute (and email if wanted) as author. you can also delete the next line and add maintainer="<your data>" to the LABEL instruction
 #MAINTAINER 
